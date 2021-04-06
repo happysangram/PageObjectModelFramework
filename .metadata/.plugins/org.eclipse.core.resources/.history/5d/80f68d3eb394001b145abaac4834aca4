@@ -1,0 +1,25 @@
+package com.accruent.pages;
+
+import org.openqa.selenium.By;
+
+import com.accruent.base.Page;
+
+public class HomePage extends Page{
+	
+
+	public void goToSiteHome()
+	{
+	driver.findElement(By.xpath(or.getProperty("siteHome"))).click();
+	}
+	
+	public void goToMyHome()
+	{
+		driver.findElement(By.xpath(or.getProperty("myHome"))).click();
+	}
+	
+	public TearDownPage goToMyBookings()
+	{
+		driver.findElement(By.xpath(or.getProperty("myBookings"))).click();
+		return new TearDownPage();
+	}
+}

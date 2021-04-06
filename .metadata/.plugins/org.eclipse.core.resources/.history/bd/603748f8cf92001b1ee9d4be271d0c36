@@ -1,0 +1,25 @@
+package com.accruent.rough;
+
+import com.accruent.pages.HomePage;
+import com.accruent.pages.LoginPage;
+import com.accruent.pages.TearDownPage;
+
+public class Dummy {
+	
+public static void main(String[] args) throws InterruptedException {
+	
+	LoginPage  hh=new LoginPage();
+	hh.goToSignIn().goToMyBookings().goToSignOff();
+	
+
+//	HomePage hp=new HomePage();
+//	hp.goToSiteHome();
+//	hp.goToMyBookings();
+//	
+//	TearDownPage td=new TearDownPage();
+//	td.goToSignOff();
+
+}
+	
+
+}

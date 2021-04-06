@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;PageObjectModel&apos;&#x0D;&#x0A;- Original project: &apos;PageObjectModel&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.accruent.pages.SignInPage.java&#x0D;&#x0A;     com.accruent.pages.SupportPage.java" description="Delete elements" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.accruent.pages{SupportPage.java" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.accruent.pages{SignInPage.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1617119649713" subPackages="false" version="1.0"/>
+</session>

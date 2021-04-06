@@ -1,0 +1,19 @@
+package com.accruent.pages;
+
+import org.openqa.selenium.By;
+
+
+import com.accruent.base.Page;
+
+public class TearDownPage extends Page {
+	
+	
+	public void goToSignOff()
+	{
+		driver.findElement(By.xpath("//a[@id='usernameid']")).click();
+		driver.findElement(By.xpath("//*[@id=\"user-menu-dropdown\"]/li[5]/a")).click();
+	
+		
+	}
+
+}

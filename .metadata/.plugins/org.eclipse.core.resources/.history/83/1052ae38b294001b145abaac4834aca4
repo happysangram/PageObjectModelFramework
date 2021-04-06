@@ -1,0 +1,5 @@
+/*Home Page*/
+
+siteHome="//a[contains(text(),'Site Home')]"
+myHome="//a[contains(text(),'My Home')]"
+myBookings="//button[@id='btn-show-my-reservations']"

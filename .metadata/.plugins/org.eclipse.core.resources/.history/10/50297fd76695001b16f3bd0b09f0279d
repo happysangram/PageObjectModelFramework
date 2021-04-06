@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Page Object Model TestSuite">
+
+	<listeners>
+		<listener class-name="listeners.CustomListeners"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+	
+	
+  <test name="LogInValidation">
+    <classes>
+      <class name="testcases.LoginValidation"/>                
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  	<test name="Test1">
+		<classes>
+			<class name="testcases.LoginValidation" />
+		</classes>
+	</test> <!-- Test -->
+  
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,17 @@
+01:14:28,003 DEBUG devpinoyLogger:51 - config file loaded
+01:14:29,902 DEBUG devpinoyLogger:67 - Chrome driver Initialization is done.
+01:14:42,961 DEBUG devpinoyLogger:81 - Maximize the screen
+01:14:45,217 DEBUG devpinoyLogger:81 - Maximize the screen
+01:14:50,472 DEBUG devpinoyLogger:81 - Maximize the screen
+01:14:54,768 DEBUG devpinoyLogger:81 - Maximize the screen
+01:14:57,450 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+01:14:57,453 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+01:14:57,457 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:14:57,459 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:14:57,460 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Das__S10/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+01:14:58,247 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+01:14:58,247 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+01:14:58,247 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+01:14:58,247 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+01:14:58,247 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Das__S10/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+01:14:59,310 DEBUG devpinoyLogger:188 - Test execution completed!!!

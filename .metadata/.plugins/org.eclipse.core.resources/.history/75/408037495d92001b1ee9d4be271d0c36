@@ -1,0 +1,24 @@
+package com.accruent.pages;
+
+import org.openqa.selenium.By;
+
+import com.accruent.base.Page;
+
+public class HomePage extends Page{
+	
+
+	public void goToSiteHome()
+	{
+	driver.findElement(By.xpath("//a[contains(text(),'Site Home')]")).click();
+	}
+	
+	public void goToMyHome()
+	{
+		driver.findElement(By.xpath("//a[contains(text(),'My Home')]")).click();
+	}
+	
+	public void goToMyBookings()
+	{
+		driver.findElement(By.xpath("//button[@id='btn-show-my-reservations']")).click();
+	}
+}

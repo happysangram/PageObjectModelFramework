@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FunctionalTest1(failed)">
+    <classes>
+      <class name="TestCases.test1">
+        <methods>
+          <include name="DBOpen"/>
+          <include name="BrowerOpen"/>
+          <include name="DBClose"/>
+          <include name="BrowerClose"/>
+          <include name="StartLog"/>
+          <include name="LogOff"/>
+          <include name="StopLog"/>
+        </methods>
+      </class> <!-- TestCases.test1 -->
+    </classes>
+  </test> <!-- FunctionalTest1(failed) -->
+</suite> <!-- Failed suite [Functional] -->

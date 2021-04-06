@@ -1,0 +1,14 @@
+Maven Debug info:
+Right click project
+Debug as -> Maven build ...
+In the goals field put -Dmaven.surefire.debug test
+In the parameters put a new parameter called forkCount with a value of 0 (previously was forkMode=never but it is deprecated and doesn't work anymore)
+
+Jenkins:
+Open the cmd from below path:
+C:\Java _Learning\Softwares\
+
+Type the below command
+java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war
+Add the user name- sangram
+Password : Cooper.123

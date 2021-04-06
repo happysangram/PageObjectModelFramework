@@ -1,0 +1,22 @@
+package com.accruent.base;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Page {
+	
+	public static WebDriver driver=null;
+	
+	public Page() {
+		if(driver==null) {
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\Executables\\chromedriver.exe");
+		driver= new ChromeDriver();
+		driver.get("https://legal.qa.emsplayground.com/web/Default.aspx");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.accruent.rough;
+
+import org.testng.annotations.Test;
+
+import com.accruent.pages.HomePage;
+import com.accruent.pages.LoginPage;
+import com.accruent.pages.TearDownPage;
+
+public class Dummy {
+	
+	@Test
+public static void main(String[] args) throws InterruptedException {
+	
+	LoginPage  hh=new LoginPage();
+	hh.goToSignIn().goToMyBookings().goToSignOff();
+	
+	}
+}

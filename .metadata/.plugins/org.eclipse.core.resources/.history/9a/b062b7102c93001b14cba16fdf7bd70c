@@ -1,0 +1,11 @@
+package com.accruent.base;
+
+public class dummy {
+	
+	
+	public void demo()
+	{
+		
+	}
+
+}

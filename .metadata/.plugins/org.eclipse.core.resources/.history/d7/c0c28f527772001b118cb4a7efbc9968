@@ -1,0 +1,58 @@
+package com.accruent.base;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
+public class TestBase {
+	/*
+	 * WebDriver
+	 * Properties
+	 * Logs
+	 * ExtentReports
+	 * DB
+	 * Excel
+	 * Mail
+	 * 
+	 */
+	
+	public static WebDriver driver;
+	public static Properties config=new Properties();
+	public static Properties or=new Properties();
+	public static FileInputStream fis;
+	
+	@BeforeSuite
+	public void setUp() throws IOException {
+		if(driver==null) {
+			fis=new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties");
+			config.load(fis);
+			fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\OR.properties");
+			or.load(fis);
+			
+			if(config.getProperty("browser").equals("chrome")) {
+				System.setProperty("webdriver.chrome.driver", "chromedriver.exe")
+				driver=new ChromeDriver();
+			}
+			else if(config.getProperty("browser").equals("firefox")) {
+				driver=new FirefoxDriver();
+			}
+			else if(config.getProperty("browser").equals("IE")) {
+				driver=new InternetExplorerDriver();
+			}
+		}
+		
+	}
+
+	@AfterSuite
+	public void tearDown() {
+		
+	}
+}

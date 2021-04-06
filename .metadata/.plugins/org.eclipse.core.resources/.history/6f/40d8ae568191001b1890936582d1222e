@@ -1,0 +1,26 @@
+package com.accruent.rough;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.accruent.pages.LoginPage;
+
+public class Dummy {
+	
+public static void main(String[] args) {
+	
+	
+	WebDriver driver=null;
+	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\test\\resources\\Executables\\chromedriver.exe");
+	driver= new ChromeDriver();
+	driver.get("https://legal.qa.emsplayground.com/web/Default.aspx");
+	driver.manage().window().maximize();
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	LoginPage  hh=new LoginPage(driver);
+	hh.goToSignIn();
+}
+	
+
+}

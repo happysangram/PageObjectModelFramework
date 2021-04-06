@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional Suite">
+
+	<listeners>
+		<listener class-name="Listener.TestListener"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+
+	<test name="Functional Test1">
+		<classes>
+			<class name="FunctionalTestCases.test1" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Functional Test2">
+		<classes>
+			<class name="FunctionalTestCases.test2" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Functional Test3">
+		<classes>
+			<class name="FunctionalTestCases.skipTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

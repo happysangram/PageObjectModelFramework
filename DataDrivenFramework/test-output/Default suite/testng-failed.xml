@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.accruent.testcases.AddCustomer">
+        <methods>
+          <include name="AddCustomer" invocation-numbers="0 1 2 3"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.accruent.testcases.AddCustomer -->
+      <class name="com.accruent.testcases.OpenAccountTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="openAccountTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.accruent.testcases.OpenAccountTest -->
+      <class name="com.accruent.testcases.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginAsBankManager"/>
+        </methods>
+      </class> <!-- com.accruent.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

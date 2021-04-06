@@ -1,0 +1,25 @@
+package com.accruent.pages;
+
+import org.openqa.selenium.By;
+
+import com.accruent.base.Page;
+
+public class LoginPage extends Page {
+	
+//	WebDriver driver;
+//
+//	
+//	public LoginPage(WebDriver driver) {
+//		// TODO Auto-generated constructor stub
+//		this.driver=driver;
+//	}
+
+	public void goToSignIn(String userName,String password)
+	{
+		driver.findElement(By.xpath("//input[@id='userID_input']")).sendKeys(userName);
+		driver.findElement(By.xpath("//input[@id='password_input']")).sendKeys(password);
+		driver.findElement(By.xpath("//input[@id='pc_btnLogin']")).click();
+		
+	}
+
+}

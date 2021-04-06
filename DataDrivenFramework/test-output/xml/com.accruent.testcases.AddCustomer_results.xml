@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add customer Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.710">
+  <properties />
+  
+  
+            <testcase name="AddCustomer" time="0.367" classname="com.accruent.testcases.AddCustomer" />
+                <testcase name="AddCustomer" time="0.481" classname="com.accruent.testcases.AddCustomer" />
+                <testcase name="AddCustomer" time="0.411" classname="com.accruent.testcases.AddCustomer" />
+                <testcase name="AddCustomer" time="0.451" classname="com.accruent.testcases.AddCustomer" />
+      
+</testsuite>

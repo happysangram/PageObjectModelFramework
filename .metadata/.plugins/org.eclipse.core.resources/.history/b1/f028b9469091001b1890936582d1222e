@@ -1,0 +1,24 @@
+package com.accruent.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage {
+	
+	WebDriver driver;
+
+	
+	public LoginPage(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+		this.driver=driver;
+	}
+
+	public void goToSignIn(String userName,String password)
+	{
+		driver.findElement(By.xpath("//input[@id='userID_input']")).sendKeys(userName);
+		driver.findElement(By.xpath("//input[@id='password_input']")).sendKeys(password);
+		driver.findElement(By.xpath("//input[@id='pc_btnLogin']")).click();
+		
+	}
+
+}

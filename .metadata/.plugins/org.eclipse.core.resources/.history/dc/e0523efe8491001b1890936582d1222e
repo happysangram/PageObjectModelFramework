@@ -1,0 +1,12 @@
+package com.accruent.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import com.accruent.base.Page;
+
+public class HomePage extends Page{
+	
+
+
+}

@@ -1,0 +1,20 @@
+package com.accruent.pages;
+
+import org.openqa.selenium.By;
+
+
+import com.accruent.base.Page;
+
+public class TearDownPage extends Page {
+	
+	
+	public void goToSignOff() throws InterruptedException
+	{
+		driver.findElement(By.xpath(or.getProperty("userProfile"))).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath(or.getProperty("signOffBtn"))).click();
+	
+		
+	}
+
+}

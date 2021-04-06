@@ -1,0 +1,14 @@
+#Home Page
+
+siteHome=//a[contains(text(),'Site Home')]
+myHome=//a[contains(text(),'My Home')]
+myBookings=//button[@id='btn-show-my-reservations']
+userProfile=//a[@id='usernameid']
+signOffBtn=//*[@id=\"user-menu-dropdown\"]/li[5]/a
+
+
+#LogIn Page
+
+userName=//input[@id='userID_input']
+password=//input[@id='password_input']
+signInBtn=//input[@id='pc_btnLogin']

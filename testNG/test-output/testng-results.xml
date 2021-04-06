@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-04T22:45:39 IST" name="Functional Suite" finished-at="2021-04-04T22:45:39 IST" duration-ms="90">
+    <groups>
+    </groups>
+    <test started-at="2021-04-04T22:45:39 IST" name="Functional Test1" finished-at="2021-04-04T22:45:39 IST" duration-ms="39">
+      <class name="FunctionalTestCases.test1">
+        <test-method is-config="true" signature="BrowerOpen()[pri:0, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="BrowerOpen" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowerOpen -->
+        <test-method is-config="true" signature="StartLog()[pri:0, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="StartLog" finished-at="2021-04-04T22:45:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartLog -->
+        <test-method signature="LogOff()[pri:0, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="LogOff" finished-at="2021-04-04T22:45:39 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOff -->
+        <test-method is-config="true" signature="StopLog()[pri:0, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="StopLog" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopLog -->
+        <test-method is-config="true" signature="StartLog()[pri:0, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="StartLog" finished-at="2021-04-04T22:45:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartLog -->
+        <test-method signature="Login()[pri:2, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="Login" finished-at="2021-04-04T22:45:39 IST" depends-on-methods="FunctionalTestCases.test1.LogOff" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="StopLog()[pri:0, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="StopLog" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopLog -->
+        <test-method signature="ValidateUser()[pri:3, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="ValidateUser" finished-at="2021-04-04T22:45:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUser -->
+        <test-method is-config="true" signature="StartLog()[pri:0, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="StartLog" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartLog -->
+        <test-method is-config="true" signature="StopLog()[pri:0, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="StopLog" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopLog -->
+        <test-method is-config="true" signature="BrowerClose()[pri:0, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="BrowerClose" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowerClose -->
+      </class> <!-- FunctionalTestCases.test1 -->
+    </test> <!-- Functional Test1 -->
+    <test started-at="2021-04-04T22:45:39 IST" name="Functional Test2" finished-at="2021-04-04T22:45:39 IST" duration-ms="8">
+      <class name="FunctionalTestCases.test2">
+        <test-method is-config="true" signature="BrowerOpen()[pri:0, instance:FunctionalTestCases.test2@537f60bf]" started-at="2021-04-04T22:45:39 IST" name="BrowerOpen" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowerOpen -->
+        <test-method is-config="true" signature="StartLog()[pri:0, instance:FunctionalTestCases.test2@537f60bf]" started-at="2021-04-04T22:45:39 IST" name="StartLog" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartLog -->
+        <test-method signature="LogOff()[pri:0, instance:FunctionalTestCases.test2@537f60bf]" started-at="2021-04-04T22:45:39 IST" name="LogOff" finished-at="2021-04-04T22:45:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOff -->
+        <test-method is-config="true" signature="StopLog()[pri:0, instance:FunctionalTestCases.test2@537f60bf]" started-at="2021-04-04T22:45:39 IST" name="StopLog" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopLog -->
+        <test-method is-config="true" signature="StartLog()[pri:0, instance:FunctionalTestCases.test2@537f60bf]" started-at="2021-04-04T22:45:39 IST" name="StartLog" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartLog -->
+        <test-method signature="Login()[pri:2, instance:FunctionalTestCases.test2@537f60bf]" started-at="2021-04-04T22:45:39 IST" name="Login" finished-at="2021-04-04T22:45:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="StopLog()[pri:0, instance:FunctionalTestCases.test2@537f60bf]" started-at="2021-04-04T22:45:39 IST" name="StopLog" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopLog -->
+        <test-method is-config="true" signature="StartLog()[pri:0, instance:FunctionalTestCases.test2@537f60bf]" started-at="2021-04-04T22:45:39 IST" name="StartLog" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartLog -->
+        <test-method signature="ValidateUser()[pri:3, instance:FunctionalTestCases.test2@537f60bf]" started-at="2021-04-04T22:45:39 IST" name="ValidateUser" finished-at="2021-04-04T22:45:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUser -->
+        <test-method is-config="true" signature="StopLog()[pri:0, instance:FunctionalTestCases.test2@537f60bf]" started-at="2021-04-04T22:45:39 IST" name="StopLog" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopLog -->
+        <test-method is-config="true" signature="BrowerClose()[pri:0, instance:FunctionalTestCases.test2@537f60bf]" started-at="2021-04-04T22:45:39 IST" name="BrowerClose" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowerClose -->
+      </class> <!-- FunctionalTestCases.test2 -->
+    </test> <!-- Functional Test2 -->
+    <test started-at="2021-04-04T22:45:39 IST" name="Functional Test3" finished-at="2021-04-04T22:45:39 IST" duration-ms="2">
+      <class name="FunctionalTestCases.skipTest">
+        <test-method signature="testField()[pri:0, instance:FunctionalTestCases.skipTest@f09733f]" started-at="2021-04-04T22:45:39 IST" name="testField" finished-at="2021-04-04T22:45:39 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skip Test Case]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skip Test Case
+at FunctionalTestCases.skipTest.testField(skipTest.java:11)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testField -->
+      </class> <!-- FunctionalTestCases.skipTest -->
+      <class name="FunctionalTestCases.test1">
+        <test-method is-config="true" signature="DBOpen()[pri:0, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="DBOpen" finished-at="2021-04-04T22:45:39 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DBOpen -->
+        <test-method is-config="true" signature="DBClose()[pri:0, instance:FunctionalTestCases.test1@47d9a273]" started-at="2021-04-04T22:45:39 IST" name="DBClose" finished-at="2021-04-04T22:45:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DBClose -->
+      </class> <!-- FunctionalTestCases.test1 -->
+    </test> <!-- Functional Test3 -->
+  </suite> <!-- Functional Suite -->
+</testng-results>
